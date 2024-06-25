@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+/* .main{
+    position: relative;
+} */
+.firstimg{
+   
+    min-height: 110vh;
+  position: relative;
+  background: url('/img1.webp') rgba(0, 0, 0, 0.75);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+ h3{
+    color: whitesmoke;
+    
+ }
+
+ .name{
+    position: absolute;
+    margin-top: 45px;
+  margin-left: 7rem;
+  font-size: 1.6rem;
+    border: 2px solid whitesmoke;
+    padding: 8px 12px;
+ }
+ .one{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 14rem;
+    margin-left: 7rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+
+ }
+  .subtitle{
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 1.28rem;
+    line-height: 45px;
+    position: absolute;
+    margin-top: 28rem;
+    margin-left: 7rem;
+}
+.subtitle p:last-child {
+    color: #0095ff;
+  }
+  .buttons {
+  display: flex; 
+    align-items: center;  
+    gap: 25px;
+    margin-left: 7rem;
+    /* border: 3px solid gold; */
+
+  }
+  .buttons button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #0095ff;
+    border: 1px solid #0095ff;
+    background: transparent;
+    transition: 0.3s;
+    margin-top: 34rem;
+
+  }
+  .buttons button:hover {
+    cursor: pointer;
+    background: #0095ff;
+    color: whitesmoke;
+    transition: 0.3s;
+  }
+  @media (max-width: 600px){
+    .name,.buttons ,.subtitle,.one{
+        margin-left:  4rem; 
+    }
+  }
+  @media (max-width: 521px){
+    .name,.buttons ,.subtitle,.one{
+        margin-left:  1rem; 
+    }
+     
+  }
+  /* @media (max-width: 422px){
+    .buttons {
+     
+display: flex;
+gap: 3px;
+        flex-direction: column;  
+      }
+      .buttons button {
+        align-items: flex-start;  
+        border: 1px solid bisque;
+        gap: 0px;
+
+      }
+  } */
