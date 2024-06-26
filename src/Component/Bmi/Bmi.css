@@ -33,7 +33,8 @@
   }
   .bmi .container .wrapper:last-child img {
     width: 100%;
-    height: 99%;
+    height: 96%;
+    
   }
   .bmi .container .wrapper form {
     height: 550px;
